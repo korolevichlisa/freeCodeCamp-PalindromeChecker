@@ -1,0 +1,95 @@
+html{
+    box-sizing: border-box;
+  }
+  html *{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background-color: rgba(224, 221, 255, 0.8);
+    color: #041538;
+    font-family: 'Fixel Display', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    letter-spacing: 0;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -moz-font-feature-settings:"liga" on;
+    line-height: 1.4;
+    text-rendering: optimizeLegibility;
+  
+  }
+
+  .container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin: 4em;
+    }
+    
+    h1{
+        font-size: 35px;
+    }
+    .fom_element{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        padding: 2em;
+        border-radius: 2em;
+        background-color: rgb(92, 34, 185);
+
+    }
+    .fom_element label{
+        color: #fff;
+        font-size: 20px;
+    }
+        
+    .checker{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 2em;
+        border-radius: 2em;
+  }
+  input[type="text"]{
+    border: none;
+    background: none;
+    border-bottom: 2px solid rgba(224, 221, 255, 0.8);
+    color: #fff;
+  }
+
+  #check-btn{
+    background: rgb(180, 174, 250);
+    border-radius: 1em;
+    border: none;
+    padding: 0.5em;
+    color: #fff;
+  }
+
+  #check-btn:hover{
+    background: rgb(150, 141, 247);
+ 
+    padding: 0.7em;
+  }
+
+  #result{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
+  .hint{
+    color: #000;
+    font-weight: 600;
+    max-width: 500px;
+    background-image: repeating-linear-gradient(-45deg, rgba(142, 112, 189,0.3),
+    rgba(142, 112, 189, 0.3) 15px,
+    rgba(224, 221, 255, 0.8) 15px,
+    rgba(224, 221, 255, 0.8) 25px);
+  }
